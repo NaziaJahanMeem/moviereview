@@ -1,0 +1,90 @@
+form{
+	text-align: left;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #d4cddc;
+}
+
+.box {
+	position: left;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+	padding: 50px;
+	color: #0000000;
+	
+}
+
+.sitename 
+{
+	font-family: 'Bellota-BoldItalic', sans-serif;
+	margin-left: 20px;
+	
+	font-size: 170%;
+	position: relative;
+	top: 8px;
+	text-shadow: #d7efff 0.5px 0.5px 0px;
+	
+}
+
+
+.head {
+	width: 100%;
+	height: 50px;
+	color: #0000000;
+}
+input[type="submit"] {
+	background-color: #6aa5a2;
+	border: 3px solid #6aa5a2;
+	border-radius: 2px;
+	padding: 5px 10 px 5px 10 px;
+	margin: 5px 0 10px 0;
+	color: #ccffff;
+	font-size: 90%
+}
+input[type="text"], input[type="password"] {
+	border: 1px;
+	margin-top: 5px;
+	width: 30%;
+	height: 30px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+}
+.top_bar
+{
+	
+	width: 100%;
+	height: 50px;
+	background-color: #2b2b33;
+	margin: 0 0 0 0;
+	display: inline-flex;
+}
+.sitename 
+{
+	font-family: 'Bellota-BoldItalic', sans-serif;
+	margin-left: 20px;
+	
+	font-size: 170%;
+	position: relative;
+	top: 8px;
+	text-shadow: #d7efff 0.5px 0.5px 0px;
+	
+}
+a:hover { 
+text-decoration: none;
+}
+nav {
+	float: right;
+	right: 50px;
+	position: absolute;
+	margin: 20px;
+}
+nav a{
+	position: relative;
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	padding-left: 40px;
+}
